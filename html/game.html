@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris game</title>
+    <link type="text/css" rel="stylesheet" href="../styles/game.css">
+</head>
+<body>
+    <div class="content">
+        <div>
+            <aside>
+                <div class="subtitle">Информация</div>
+                <div class="subtitleContent">
+                    <div id="username">Имя пользователя: </div>
+                    <div id="score">Счет: 0</div><br>
+                    <div class="subtitle">Следующая фигура</div>
+                </div>
+                <div>
+                    <canvas class="nextFigureCanvas" id="nextFigureCanvas" width="160" height="160"></canvas> <!-- 4х4 по 40px -->
+                </div><br>
+            </aside>
+            <aside>
+                <div class="subtitle">Управление</div>
+                <div class="subtitleContent">
+                    <div>Перемещение ← ↓ →</div>
+                    <div>Повернуть на 90 градусов ↑</div>
+                </div>
+            </aside>
+        </div>
+
+        <div>
+            <canvas id="gameCanvas" width="400" height="800"></canvas>   <!-- 10х20 по 40px -->
+        </div>
+    </div>
+    <script type="module" src="../scripts/game.js"></script>
+</body>
+</html>

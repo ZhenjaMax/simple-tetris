@@ -1,0 +1,22 @@
+.content {
+    width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+}
+
+.subtitleContent{
+    text-align: center;
+}
+
+.nextFigureCanvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+}

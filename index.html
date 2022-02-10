@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tetris game</title>
+    <script type="text/javascript" src="./scripts/index.js"></script>
+</head>
+<body onload="read(document.getElementById('username'))">
+    <form action="html/game.html" method="get">
+        <label>
+            Введите имя:
+            <input id="username" placeholder="Имя пользователя"><br>
+        </label>
+        <input type="submit" value="Ввод" button onclick="store(document.getElementById('username'))">
+    </form>
+</body>
+</html>
